@@ -1,32 +1,28 @@
 {
-	"name": "aso",
+	"name": "parse-keywords",
 	"version": "1.0.0",
 	"description": "",
-	"main": "aso-scores.js",
+	"main": "index.js",
 	"scripts": {
-		"aso-scores": "node aso-scores.js",
+		"parse": "node index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "",
+	"author": "DGolubenko",
 	"license": "ISC",
 	"devDependencies": {
-		"aso": "^1.1.1",
-		"google-play-scraper": "^6.2.3",
 		"babel-core": "6.26.3",
 		"babel-polyfill": "6.26.0",
 		"babel-preset-env": "1.7.0",
 		"babel-preset-es2015": "6.24.1",
 		"babel-register": "6.26.0",
 		"body-parser": "1.18.3",
-		"express": "4.16.4"
+		"express": "4.16.4",
+		"fs-extra": "8.1.0",
+		"lodash": "4.17.15"
 	},
 	"dependencies": {
 		"cors": "^2.8.5",
 		"delay": "^4.1.0",
-		"detectlanguage": "^1.2.2",
-		"franc": "^4.0.0",
-		"franc-all": "^5.0.0",
-		"osmosis": "^1.1.10",
 		"xmlhttprequest": "^1.8.0"
 	}
 }
