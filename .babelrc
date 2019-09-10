@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["es2015", {"modules": false}],
+    ["env", {
+      "targets": {
+        "browsers": [
+          "last 10 versions"
+        ]
+      }
+    }]
+  ]
+}
