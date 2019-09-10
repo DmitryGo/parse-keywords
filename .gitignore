@@ -1,15 +1,13 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
-
-# IntelliJ project files
 .idea
 /node_modules
 /src/resultKws
 /src/resultKws/*.txt
 /src/resultKws/*.zip
-/src/json/kws.json
-/src/json/top_apps/
+/src/resultTopApps/json
+/src/resultTopApps/*.zip
+/src/json/kws
+/src/json/top_apps
+/src/json/top_apps/*
 package-lock.json
 *.iml
 out
